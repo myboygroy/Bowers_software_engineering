@@ -3,7 +3,6 @@
 //Program Name: Bowers_spell_checker
 //Purpose: Compare a text file and determine if the words contained within are found in a dictionary file.
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -12,7 +11,6 @@ import java.util.Scanner;
 
 public class Bowers_Spell_Checker {
 
-	//C:\Users\Joachim Bowers\Desktop\School\Summer 2021\software engineering\Module 2\dictionary.txt
 
 	public static void main(String[] args)throws Exception { 
 		//create scanner object
